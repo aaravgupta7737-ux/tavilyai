@@ -9,13 +9,13 @@ import {
   WifiOff,
   X,
 } from 'lucide-react';
-import { AuthModal } from './components/AuthModal';
-import { EmptyHome } from './components/EmptyHome';
-import { PromptDock } from './components/PromptDock';
-import { ReportView } from './components/ReportView';
-import { Sidebar } from './components/Sidebar';
-import { SourcesDrawer } from './components/SourcesDrawer';
-import { useOnlineStatus } from './hooks/usePWAInstall';
+import { AuthModal } from './src/components/AuthModal';
+import { EmptyHome } from './src/components/EmptyHome';
+import { PromptDock } from './src/components/PromptDock';
+import { ReportView } from './src/components/ReportView';
+import { Sidebar } from './src/components/Sidebar';
+import { SourcesDrawer } from './src/components/SourcesDrawer';
+import { useOnlineStatus } from './src/hooks/usePWAInstall';
 import type {
   AttachmentItem,
   AuthUser,
@@ -25,7 +25,7 @@ import type {
   ResearchSource,
   ResearchStep,
   StructuredReport,
-} from './types/research';
+} from './src/types/research';
 
 const GUEST_STORAGE_KEY = 'tavily_research_sessions_guest_v1';
 
